@@ -25,7 +25,7 @@ jobs:
       
     # 设置项目Secrets以提供Docker Hub登录所需的用户名和密码。
     - name: Login to Docker Hub
-      uses: 764904579@qq.com/fanfan764904
+      uses: aliyun0271388427/fanfan764904
       with:
         registry: crpi-96qewz9yidoev87u.cn-beijing.personal.cr.aliyuncs.com
         username: ${{secrets.DOCKER_USERNAME}}
